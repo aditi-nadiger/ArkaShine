@@ -12,7 +12,7 @@ target_columns = ['pH', 'EC  (dS/m)','OC (%)','P   (kg/ha)', 'K (kg/ha)', 'Ca (m
              'S (ppm)', 'Fe (ppm)', 'Mn (ppm)', 'Cu (ppm)', 'Zn (ppm)', 'B (ppm)']
 
 st.title("Soil Nutrients Prediction")
-st.image(r"C:\Users\Aditi\Documents\ArkaShine\Premium Photo _ Seedlings are growing from fertile soil, environmental concepts_.jpg",use_column_width="auto")
+st.image(r"seedlings.jpg",use_container_width=True)
 # Load the saved model and scaler
 @st.cache_data
 def load_model():
