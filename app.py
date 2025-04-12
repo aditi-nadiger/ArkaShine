@@ -105,7 +105,7 @@ if st.button("Predict"):
 
 
     # Plot for actual vs predicted values
-    df2=pd.read_csv(r"C:\Users\Aditi\Documents\ArkaShine\values.csv")
+    df2=pd.read_csv(r"values.csv")
     X = df2[feature_columns]
     y = df2[target_columns]
     xts = scaler.fit_transform(X) 
